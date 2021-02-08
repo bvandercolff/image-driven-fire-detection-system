@@ -11,7 +11,7 @@ sudo apt-get install build-essential cmake unzip pkg-config
 
 2. Install image and video libraries:
 
-sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+sudo apt-get install libjpeg-dev libpng-dev libtiff-dev  
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get install libxvidcore-dev libx264-dev
 
