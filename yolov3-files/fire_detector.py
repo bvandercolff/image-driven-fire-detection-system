@@ -1,4 +1,5 @@
 import subprocess
+import os
 cmd = './darknet detector test data/obj.data cfg/yolov3_testing.cfg yolov3_training_2.weights data/fire.jpg -thresh 0.02'
 proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
 
