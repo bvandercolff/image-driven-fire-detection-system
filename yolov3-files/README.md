@@ -81,7 +81,7 @@ git clone https://github.com/AlexeyAB/darknet
 13. Navigate to /home/pi/darknet
 
 
-14. Edit Makefile, change GPU=0, CUDNN=0, AVX=0, CUDNN_HALF=0, LIBSO=0, ZED_CAMERA=0, ZED_CAMERA_v2_8=0
+14. Edit Makefile, change GPU=0, CUDNN=0, AVX=0, CUDNN_HALF=0, OPENCV=1, LIBSO=0, ZED_CAMERA=0, ZED_CAMERA_v2_8=0
 
 
 15. Navigate to darknet and compile
@@ -106,4 +106,4 @@ train.txt --> darknet/data
  
 Now, to test on an image, put the image in darknet/data and enter the following command:
 
-./darknet detector test data/obj.data cfg/yolov3_testing.cfg yolov3_training_2.weights data/<File Name>
+./darknet detector test data/obj.data cfg/yolov3_testing.cfg yolov3_training_2.weights data/
