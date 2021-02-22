@@ -106,4 +106,4 @@ train.txt --> darknet/data
  
 Now, to test on an image, put the image in darknet/data and enter the following command:
 
-./darknet detector test data/obj.data cfg/yolov3_testing.cfg yolov3_training_2.weights data/
+./darknet detector test data/obj.data cfg/yolov3_testing.cfg yolov3_training_2.weights data/(file name)
