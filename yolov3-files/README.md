@@ -72,6 +72,15 @@ pip install "picamera[array]"
 
 pip install opencv-contrib-python==4.1.0.25  
 
+To make sure opencv was installed correctly:
+ cd ~
+ workon cv
+ python
+>>> import cv2
+>>> cv2.__version__
+
+should give:
+'4.1.1'
 
 12. Download AlexeyAB darknet fork
 
