@@ -69,16 +69,22 @@ pip install "picamera[array]"
 
 11. Intall OpenCV
 
-pip install opencv-contrib-python==4.1.0.25  
+pip install opencv-contrib-python==4.1.0.25
+
+***TRY THIS INSTEAD:
+
+sudo apt install
+libopencv-dev
+pip install opencv-python
 
 To make sure opencv was installed correctly:
- cd ~
- workon cv
- python
->>> import cv2
->>> cv2.__version__
+cd ~ 
+workon cv 
+python 
+import cv2 
+cv2.__version__ 
 
-should give:
+should give: 
 '4.1.1'
 
 12. Download AlexeyAB darknet fork
@@ -89,7 +95,7 @@ git clone https://github.com/AlexeyAB/darknet
 13. Navigate to /home/pi/darknet
 
 
-14. Edit Makefile, change GPU=0, CUDNN=0, AVX=0, CUDNN_HALF=0, OPENCV=1, LIBSO=0, ZED_CAMERA=0, ZED_CAMERA_v2_8=0
+14. Edit Makefile, change GPU=0, CUDNN=0, AVX=0, CUDNN_HALF=0, OPENCV=1, LIBSO=1, ZED_CAMERA=0, ZED_CAMERA_v2_8=0
 
 
 15. Navigate to darknet and compile
