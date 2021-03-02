@@ -11,6 +11,8 @@ from queue import Queue
 ## This script is executed inside the virtual environment that contains OpenCV - OpenCV is required
 ## Execute from command line using:
 ## python3 fire_detector.py --input <input file name>.mp4 --out_filename <output filename>.avi --dont_show
+## Leaving off --input flag automatically selects the pi camera, leaving off --out_filename results in the
+## output not being saved
 ## Note that input file must be mp4, output must be avi
 ## Check code added that checks for fire, (ctrl+f "code for fire detection"
 ## uncomment send text script to send text, add whatever other
