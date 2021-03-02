@@ -80,7 +80,7 @@ import cv2
 cv2.__version__ 
 
 should give: 
-'4.1.1'
+'4.5.1'
 
 12. Download AlexeyAB darknet fork
 
