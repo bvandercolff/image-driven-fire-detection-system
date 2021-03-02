@@ -40,7 +40,6 @@ sudo apt-get install python3-dev
 
 wget https://bootstrap.pypa.io/get-pip.py  
 sudo python3 get-pip.py  
-sudo python3 get-pip.py  
 sudo rm -rf ~/.cache/pip  
 sudo pip install virtualenv virtualenvwrapper  
 
