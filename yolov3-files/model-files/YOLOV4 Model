@@ -1,0 +1,6 @@
+Download link to tiny-yolov4 model: 
+https://drive.google.com/file/d/1tbn4w-dV9C5vGDH_9RO5f5vjK3fqT2Zl/view?usp=sharing
+place this in /darknet/
+
+To run this model, use config file, using fire_detector.py, run:
+python3 darknet_video.py --input (input filename).mp4 --config_file cfg/yolov4-tiny.cfg --data_file data/obj.data --weights tiny_yolov4.weights --out_filename yolov4_result.avi --dont_show
