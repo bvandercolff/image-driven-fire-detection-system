@@ -30,7 +30,7 @@ def parser():
                         help="windown inference display. For headless systems")
     parser.add_argument("--ext_output", action='store_true',
                         help="display bbox coordinates of detected objects")
-    parser.add_argument("--config_file", default=".cfg/yolov4-tiny.cfg",
+    parser.add_argument("--config_file", default="./cfg/yolov4-tiny.cfg",
                         help="path to config file")
     parser.add_argument("--data_file", default="./data/obj.data",
                         help="path to data file")
